@@ -5,7 +5,7 @@
 ## 包含内容
 
 - `releases/*.ipk`：aarch64_cortex-a53 架构的 OpenWrt 安装包（需 opkg）；其他架构请自行构建并调整架构声明。
-- `native/`、`openwrt/`：源码、LuCI 界面和服务配置；`dist/` 包含 ARM64 和 x86-64 Linux 可执行文件。
+- `native/`、`openwrt/`：源码、LuCI 界面和服务配置；ZIP 压缩包中的 `dist/` 包含 ARM64 和 x86-64 Linux 可执行文件。
 - `build.sh`、`package-openwrt.py`：构建脚本。
 
 ## 安装和使用前
