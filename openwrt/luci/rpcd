@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/sbin/campusvpn -mode rpc -rpc-action "$1" -rpc-method "${2:-}"

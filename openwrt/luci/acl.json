@@ -1,0 +1,1 @@
+{"luci-app-campusvpn":{"description":"Manage campus VPN","read":{"ubus":{"luci.campusvpn":["status"]}},"write":{"ubus":{"luci.campusvpn":["login","disconnect","reconnect"]}}}}
